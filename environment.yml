@@ -1,0 +1,16 @@
+name: skrt+
+channels:
+  - conda-forge
+dependencies:
+  - ipython
+  - jupyter
+  - jupyterlab
+  - pip
+  - python=3.8
+  - root
+  - pip:
+    - ganga
+    - -e git+https://codeshare.phy.cam.ac.uk/hp346/scikit-rt#egg=scikit-rt
+    - -e git+https://codeshare.phy.cam.ac.uk/kh296/ganga-skrt#egg=ganga-skrt
+    - simpleitk
+    - -e .
