@@ -11,6 +11,8 @@ dependencies:
   - pip:
     - ganga
     - -e ../scikit-rt
-    - -e ../scikit-rt/examples/voxtox
+    - -e ../scikit-rt/examples/import
+    - -e ../scikit-rt/examples/innereye
+    - -e ../voxtox-skrt
     - -e ../ganga-skrt
     - simpleitk
