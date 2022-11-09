@@ -9,10 +9,9 @@ dependencies:
   - python=3.8
   - root
   - pip:
-    - ganga
+    - ganga==8.6.1
+    - -e ../ganga-skrt
     - -e ../scikit-rt
     - -e ../scikit-rt/examples/import
     - -e ../scikit-rt/examples/innereye
     - -e ../voxtox-skrt
-    - -e ../ganga-skrt
-    - simpleitk
