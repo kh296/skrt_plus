@@ -63,5 +63,12 @@ create_setup -c <conda_home> -e skrt+ -o skrt_setup.sh
 # For more information, use: create_setup -h
 ```
 
+## Troubleshooting
 
+In case of issues with creation of `conda` environment on MacOS, check
+the MacOS version number returned by `conda info`.  If this is incorrect,
+try setting the environment variable `SYSTEM_VERSION_COMPAT=0`.
 
+For more information about MacOS version number being returned incorrectly,
+see: 
+[https://stackoverflow.com/questions/65290242/pythons-platform-mac-ver-reports-incorrect-macos-version](https://stackoverflow.com/questions/65290242/pythons-platform-mac-ver-reports-incorrect-macos-version).
